@@ -63,6 +63,7 @@ section h3 {
   border: 1px solid #ddd;
   border-radius: 5px;
   background-color: #f9f9f9;
+  padding-bottom: 25px; /* Adjust padding for participants section */
 }
 
 .activity-card h4 {
@@ -72,6 +73,23 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+}
+
+.participants {
+  margin-top: 15px;
+  padding: 10px;
+  border-top: 1px solid #ddd;
+  color: #333;
+}
+
+.participants ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+.participants li {
+  margin-bottom: 5px;
+  color: #0066cc; /* Color for participant names */
 }
 
 .form-group {
