@@ -83,13 +83,41 @@ section h3 {
 }
 
 .participants ul {
-  list-style-type: disc;
-  padding-left: 20px;
+  list-style-type: none;
+  padding-left: 0;
 }
 
 .participants li {
   margin-bottom: 5px;
   color: #0066cc; /* Color for participant names */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.delete-btn {
+  background: none;
+  border: none;
+  padding: 2px 6px;
+  cursor: pointer;
+  border-radius: 50%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.6;
+  transition: opacity 0.2s, background-color 0.2s;
+}
+
+.delete-btn:hover {
+  opacity: 1;
+  background-color: #ffebee;
+}
+
+.delete-icon {
+  color: #c62828;
+  font-size: 12px;
+  font-weight: bold;
 }
 
 .form-group {
